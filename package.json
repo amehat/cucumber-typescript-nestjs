@@ -1,0 +1,32 @@
+{
+  "name": "cucumber-js-nestjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "start": "nest start",
+    "dev": "nest start --watch",
+    "test": "cucumber-js",
+    "test:ts": "tsc && ./node_modules/.bin/cucumber-js ./features/ -p default --publish"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^8.1.2",
+    "@nestjs/common": "^8.4.4",
+    "@nestjs/core": "^8.4.4",
+    "@nestjs/platform-express": "^8.4.4",
+    "assert": "^2.0.0",
+    "cucumber-pretty": "^6.0.1",
+    "cucumber-tsflow": "^4.0.0-preview.7",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.5",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.5.6",
+    "@types/chai": "^4.3.1",
+    "@types/cucumber": "^7.0.0"
+  }
+}
