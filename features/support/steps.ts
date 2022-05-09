@@ -1,7 +1,7 @@
-const assert = require('assert')
-const { When, Then } = require('@cucumber/cucumber')
+import * as assert from 'assert';
+import { When, Then } from '@cucumber/cucumber';
 
-const { Greeter } = require('./dist/greeter.service');
+import { Greeter } from '../../src/greeter.service';
 
 When('the greeter says hello', function () {
   this.whatIHeard = new Greeter().sayHello();
