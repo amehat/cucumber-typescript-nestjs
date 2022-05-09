@@ -6,4 +6,6 @@ Examples are on different branches.
 List of branches:
 
 - `cucumber-js` : Simple implementation of cucumber with node js in javascript
-- `cucumber-nestjs` : Cucumber with nestjs (typescript) without any other library
+- `cucumber-nestjs` : Cucumber with nestjs (typescript) without any other library.
+
+    If we change the code so that it is deliberately false, the test remains valid. It is not a good thing.
