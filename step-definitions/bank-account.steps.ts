@@ -1,7 +1,7 @@
 import * as assert from 'assert';
 import { binding, given, then, when} from 'cucumber-tsflow';
 
-import BankAccount from '../src/bank.account'
+import BankAccount from '../src/bank-account/bank-account.service';
 
 @binding()
 export class BankAccountSteps {
@@ -20,5 +20,6 @@ export class BankAccountSteps {
   @then(/The bank account balance should be \$(\d*)/)
   public accountBalanceShouldEqual(expectedAmount: number) {
     assert.equal(this.bankAccount.accountBalance, expectedAmount);
+    assert.equal(this.bankAccount.getAccountBalance(), `$${expectedAmount}`)
   }
 }

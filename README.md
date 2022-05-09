@@ -1,11 +1,19 @@
 # cucumber-typescript-nestjs
-Study of the use of cucumber with nestjs and typescript
 
-Examples are on different branches.
+command :
 
-List of branches:
+Start app
 
-- `cucumber-js` : Simple implementation of cucumber with node js in javascript
-- `cucumber-nestjs` : Cucumber with nestjs (typescript) without any other library.
+```bash
+yarn build
+yarn start
 
-    If we change the code so that it is deliberately false, the test remains valid. It is not a good thing.
+// OR
+
+yarn dev
+```
+
+Run test
+```bash
+yarn test
+```

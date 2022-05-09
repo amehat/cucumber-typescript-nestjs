@@ -1,4 +1,7 @@
-export default class BankAccount {
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export default class BankAccountService {
     accountBalance: number = 0;
 
     deposite(amount: number) {
