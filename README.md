@@ -13,3 +13,5 @@ List of branches:
 - `cucumber-tsflow`: Using cucumber with decorators in step
 
     The changes are well taken into account and cause the test to fail normally
+    
+- `cucumber-tsflow-nestjs`: Using cucumber with decorators in step and use the service (used in step) with nestjs
