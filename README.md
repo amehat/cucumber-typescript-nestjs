@@ -11,3 +11,5 @@ List of branches:
     If we change the code so that it is deliberately false, the test remains valid. It is not a good thing.
     
 - `cucumber-tsflow`: Using cucumber with decorators in step
+
+    The changes are well taken into account and cause the test to fail normally
