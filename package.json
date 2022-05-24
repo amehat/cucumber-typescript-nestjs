@@ -10,7 +10,7 @@
     "build": "nest build",
     "start": "nest start",
     "dev": "nest start --watch",
-    "test": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js features/**/*.feature --require step-definitions/**/*.ts --require hooks/**/*.ts --require-module ts-node/register/transpile-only --format-options \"{\\\"snippetInterface\\\": \\\"async-await\\\"}\" --format summary --format @cucumber/pretty-formatter --format cucumber-console-formatter --publish-quiet"
+    "test": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^8.2.1",
